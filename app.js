@@ -7,4 +7,6 @@ const url="http://api.weatherstack.com/current?access_key="+key+"&query=New%20Yo
 request({url:url,json:true},(error,response)=>{
 
     console.log(response.body.current)
+
+    
 })
